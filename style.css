@@ -155,6 +155,9 @@ footer {
         flex-direction: row-reverse;
         border-radius: 1rem;
     }
+    img {
+        height:100%;
+    }
     .form-container {
         display: flex;
         flex-direction: column;
