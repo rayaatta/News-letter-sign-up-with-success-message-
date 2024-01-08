@@ -153,9 +153,9 @@ footer {
         padding:1rem;
     }
     .sign-up {
-        display:grid;
-        grid-template-copumns: 1fr 1fr;
+        flex-direction : column;
         border-radius: 1rem;
+        padding:1rem;
     }
     img {
         height:100%;
