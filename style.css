@@ -150,6 +150,7 @@ footer {
         align-items: center;
         justify-content: center;
         max-width:min(94%,47rem);
+        padding:1rem;
     }
     .sign-up {
         flex-direction: row-reverse;
