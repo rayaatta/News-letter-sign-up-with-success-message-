@@ -154,10 +154,6 @@ footer {
     .sign-up {
         flex-direction: row-reverse;
         border-radius: 1rem;
-        /*grid-template-columns: 1fr 1fr;*/
-    }
-    picture {
-        padding:1rem;
     }
     .form-container {
         display: flex;
