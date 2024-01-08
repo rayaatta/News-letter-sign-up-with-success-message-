@@ -154,12 +154,13 @@ footer {
         padding:1rem;
     }
     .sign-up {
-        flex-flow : row reverse;
+        flex: row;
         border-radius: 1rem;
         padding:1rem;
     }
     img {
         height:100%;
+        order:1;
     }
     .form-container {
         display: flex;
