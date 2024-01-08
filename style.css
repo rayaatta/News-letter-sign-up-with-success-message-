@@ -158,9 +158,11 @@ footer {
         border-radius: 1rem;
         padding:1rem;
     }
+    picture {
+        order:1;
+    }
     img {
         height:100%;
-        order:1;
     }
     .form-container {
         display: flex;
