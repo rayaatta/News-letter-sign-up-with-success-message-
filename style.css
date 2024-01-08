@@ -149,7 +149,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        max-width:min(94%,52rem);
+        max-width:min(99%,52rem);
         padding:1rem;
     }
     .sign-up {
