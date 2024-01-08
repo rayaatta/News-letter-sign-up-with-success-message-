@@ -86,7 +86,7 @@ ul {
 li {
     background-color: aquamarine;
     padding-inline-start: 1.5rem;
-    background: no-repeat  url(assets/images/icon-success.svg);
+    background: no-repeat  url(icon-success.svg);
     background-size: 1rem;
     margin-block: 1rem;
 }
