@@ -5,6 +5,7 @@
     --grey:hsl(231, 7%, 60%);
     --white:hsl(0, 0%, 100%);
 }
+/*reset*/
 *, *::before, *::after {
     margin:0;
     padding: 0;
