@@ -43,11 +43,11 @@ form.addEventListener("submit", (event) => {
     if (email.validity.valueMissing) {
     errorMessage.errorMessage.textContent = "You need to enter an email.";
 } else if (email.validity.typeMismatch) {
-    errorMessage.textContent = "entered value should be an email address";
+    errorMessage.textContent = "Entered a valid email address";
 } else if (email.validity.tooShort) {
-    errorMessage.textContent= `email should be atleadt ${email.minLength} characters: you entered ${email.value.length}.`;
+    errorMessage.textContent= `Address should be atleast ${email.minLength} characters: you entered ${email.value.length}.`;
 } else if (email.value === "") {
-    errorMessage.textContent = "enter your email address";
+    errorMessage.textContent = "Enter your email address";
 }
 }
 dismissButton.addEventListener("click", () => {
