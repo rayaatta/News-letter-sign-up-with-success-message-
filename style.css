@@ -32,7 +32,7 @@ main {
     flex-direction: column;
     background: var(--white);
 }
-img {
+picture, img {
     display:block;
     width:100%;
 }
