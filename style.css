@@ -42,7 +42,7 @@ The designs were created to the following widths:
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: .935rem;
     color:var(--charcoal-grey);
     font-weight: 400;
