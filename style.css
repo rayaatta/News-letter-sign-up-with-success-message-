@@ -154,7 +154,7 @@ footer {
         padding:1rem;
     }
     .sign-up {
-        flex-direction: row;
+        flex-direction: row-reverse;
         flex-wrap:nowrap;
         border-radius: 1rem;
         padding:1rem;
