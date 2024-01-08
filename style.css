@@ -154,10 +154,13 @@ footer {
         padding:1rem;
     }
     .sign-up {
-        flex-direction: row-reverse;
+        flex-direction: row;
         flex-wrap:nowrap;
         border-radius: 1rem;
         padding:1rem;
+    }
+    picture {
+        order:1;
     }
     img {
         height:100%;
