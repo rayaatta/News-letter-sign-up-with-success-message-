@@ -43,7 +43,7 @@ form.addEventListener("submit", (event) => {
     if (email.validity.valueMissing) {
     errorMessage.errorMessage.textContent = "You need to enter an email.";
 } else if (email.validity.typeMismatch) {
-    errorMessage.textContent = "Entered a valid email address";
+    errorMessage.textContent = "Enter a valid email address";
 } else if (email.validity.tooShort) {
     errorMessage.textContent= `Address should be atleast ${email.minLength} characters: you entered ${email.value.length}.`;
 } else if (email.value === "") {
